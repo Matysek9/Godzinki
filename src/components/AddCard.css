@@ -1,0 +1,28 @@
+.Mycard{
+    border-radius: 2rem;
+    font-size: x-large;
+    transition: all 0.5s;
+    background-color: white;
+    
+}
+
+
+.addCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (orientation: landscape) {
+    .addCard{
+        height: 1.5rem;
+        margin: auto;
+    }
+  }
+  
+  @media (orientation: portrait) {
+    .addCard{
+        height: 1.5rem;
+    }
+    }

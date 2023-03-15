@@ -1,0 +1,23 @@
+.monthCard {
+  padding: 5px 1rem 1rem 1rem;
+  margin: 6px;
+  border: 1px solid black;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  background: linear-gradient(0.3turn, #C9D6FF,#E2E2E2);
+  /* background: linear-gradient(0.45turn,#424d58,#268d51); */
+  
+}
+
+.daysTable {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.total{
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}

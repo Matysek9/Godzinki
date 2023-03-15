@@ -1,0 +1,56 @@
+
+.position {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  gap: 2rem;
+  backdrop-filter: blur(5px);
+}
+
+.inputContainer {
+  margin: auto;
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 200;
+  border: 1px solid black;
+  background-color: white;
+  width: 70%;
+  padding: 1rem;
+  border-radius: 15px;
+}
+
+select{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 8px;
+  border-radius: 6px;
+  background-color: rgba(238, 238, 238, 0.712);
+}
+
+
+header{
+  font-weight: bold;
+}
+
+.year{
+  font-size: x-small;
+}
+  
+.selectContainer{
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+  
+  
+
+

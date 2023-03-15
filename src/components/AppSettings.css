@@ -1,0 +1,48 @@
+.settingsPosition {
+  position: fixed;
+  top: 0;
+  right: 0;
+  
+}
+.myBtn{
+  position: relative;
+  z-index: 10000;
+}
+
+.settingsBackdrop{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(5px);
+  z-index: 1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.inputContainer {
+  margin: auto;
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 200;
+  border: 1px solid black;
+  background-color: white;
+  width: 70%;
+  padding: 1rem;
+  border-radius: 15px;
+}
+
+.inputContainer form{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
