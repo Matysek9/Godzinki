@@ -6,8 +6,8 @@
   display: flex;
   flex-direction: column;
   background-color: white;
-  background: linear-gradient(0.3turn, #C9D6FF,#E2E2E2);
-  /* background: linear-gradient(0.45turn,#424d58,#268d51); */
+  /* background: linear-gradient(0.3turn, #C9D6FF,#E2E2E2); */
+  background: linear-gradient(0.45turn,#3d7ebe,#8d6426);
   
 }
 
